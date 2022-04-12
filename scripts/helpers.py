@@ -15,5 +15,7 @@ def fill_interpolate_temporal(date_sorted_data):
             delta = (next_val - prev_val) / (j - i)
             for k in range(i, j):
                 date_sorted_data[k] = prev_val + (k-i)*delta
-        return date_sorted_data
+        i = j
+
+    return date_sorted_data
     
