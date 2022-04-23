@@ -1,0 +1,5 @@
+,comment,mse,adj_r2
+0,"linear regression without altimeter, no tuning",0.8239256852493146,-1.097547199387075
+1,"random forest without altimeter, no tuning",0.3244735291377774,0.6437066608664346
+2,"lr with altimeter, no tuning",0.4595035062887389,-0.17728936118357952
+3,"random forest wiht altimeter, no tuning",0.1770139612623558,0.7367705911855371
